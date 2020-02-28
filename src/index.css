@@ -1,0 +1,65 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: .9em;
+}
+.save-button{
+  width: 100px;
+  border-radius: 3px;
+}
+footer{
+  font-size: .7em;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  background-color:  #F47424;
+  color: white;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  padding: 5px;
+}
+th{
+  background-color: aliceblue;
+}
+tr:nth-child(n+2):hover{
+  opacity: .8;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.tracker-orange{
+  background-color: #F47424;
+}
+.table-wrapper{
+  width: 75%;
+  height: 200px;
+  overflow-y: auto;
+}
+.form-label,.text-input{
+  display: inline-block;
+}
+.form-label{
+  width: 100px;
+}
+.display-list{
+  list-style-type: none;
+  font-size: 1.2em;
+}
+.details-link{
+  color: blue;
+}
+.details-link:active{
+  color: #F47424;
+}
+
